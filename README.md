@@ -1,9 +1,8 @@
-# KAUST Infectious Diseases Epidemiology Lab | Digital Health Tool
+# Machine Learning Based Genomic Risk Prediction
 
 ## Overview
 
-**KAUST Digital Health | Genomic Risk Prediction** is a research-focused **machine learning platform** developed by the Infectious Diseases Epidemiology Lab at KAUST.  
-It predicts **in-hospital mortality** and **ICU admission** from bacterial **genomic biomarkers** using XGBoost models.  
+An **machine learning based digital health tool** for predicting **in-hospital mortality** and **ICU admission** from bacterial **genomic biomarkers**. This research platform supports **infection prevention**, and data-driven **precision therapeutics**. 
 
 > ⚠️ This platform is intended for **research purposes only** and is **not for clinical decision-making**.
 
@@ -12,8 +11,8 @@ Key features:
 - Scan **bacterial genome assemblies (FASTA)** for genomic biomarkers (*unitigs*)  
 - Predict **mortality** and **ICU admission risk**  
 - Compute **approximate 95% confidence intervals** for predictions  
-- Optional **SHAP-based biomarker importance visualization**  
-- Parallelized genome scanning for **large datasets**
+- Optional **SHAP-based biomarker importance visualisation**  
+- Parallelised genome scanning for **large datasets**
 
 ---
 
