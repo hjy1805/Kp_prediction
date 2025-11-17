@@ -50,7 +50,7 @@ docker run -p 8501:8501 hjy1805/ide_app:latest
 ## App Workflow
 
 <p align="left">
-  <img src="default_interface.png" width="400">
+  <img src="default_interface.png" width="600">
 </p>
 
 1.	Select clinical outcome:
