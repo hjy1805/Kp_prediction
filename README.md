@@ -45,7 +45,7 @@ Ensure Docker are installed:
 docker pull hjy1805/ide_app:latest
 docker run -p 8501:8501 hjy1805/ide_app:latest
 ```
-
+---
 
 ## App Workflow
 
@@ -65,11 +65,21 @@ docker run -p 8501:8501 hjy1805/ide_app:latest
 	•	Model scans genomes for unitigs
 	•	Generates probability prediction & 95% CI
 	•	Downloadable CSV with predictions
-5.	SHAP Visualisation (optional):
+    Example prediction result: 
+<p align="left">
+  <img src="pred_result.png" width="400">
+</p>
+
+5.	SHAP Visualisation:
 	•	Identify most influential genomic biomarkers
 	•	Waterfall or bar plot per sample
 	•	Adjustable number of top biomarkers
+    SHAP predictive biomarker:  
+<p align="left">
+  <img src="shap.png" width="600">
+</p>
 
+---
 
 ## Contacts
 For inquiries regarding this research, please contact:
