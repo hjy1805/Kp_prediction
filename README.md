@@ -19,7 +19,7 @@ Key features:
 ## Project Structure
 
 ```plaintext
-my-streamlit-app/
+ide_app/
 ├── app.py                        # Main Streamlit app
 ├── requirements.txt              # Python dependencies (pip)
 ├── Unitigs_predictor_DEATH.csv   # Feature CSV for mortality model
