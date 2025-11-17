@@ -1,5 +1,7 @@
 # Machine Learning Based Genomic Risk Prediction
 
+![App Screenshot](app_logo.jpg)
+
 ## Overview
 
 An **machine learning based digital health tool** for predicting **in-hospital mortality** and **ICU admission** from bacterial **genomic biomarkers**. This research platform supports **infection prevention**, and data-driven **precision therapeutics**. 
