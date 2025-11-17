@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 ```
-### **Docker Usage **
+### **Docker Usage**
 
 Ensure Docker are installed:
 
