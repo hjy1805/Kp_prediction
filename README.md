@@ -18,20 +18,6 @@ Key features:
 - Optional **SHAP-based biomarker importance visualisation**  
 - Parallelised genome scanning for **large datasets**
 
----
-
-## Project Structure (Docker image)
-
-```plaintext
-ide_app/
-├── app.py                        # Main Streamlit app
-├── requirements.txt              # Python dependencies (pip)
-├── Unitigs_predictor_DEATH.csv   # Feature CSV for mortality model
-├── Unitigs_predictor_ICU.csv     # Feature CSV for ICU model
-├── xgb_fold1_8_Death.joblib      # Pretrained XGBoost mortality model
-├── xgb_fold5_8_ICU.joblib        # Pretrained XGBoost ICU model
-└── KAUST_Logo.svg                # Logo for app display
-```
 
 ---
 
@@ -46,6 +32,19 @@ docker pull hjy1805/ide_app:latest
 docker run -p 8501:8501 hjy1805/ide_app:latest
 ```
 ---
+
+## Project Structure (Docker image)
+
+```plaintext
+ide_app/
+├── app.py                        # Main Streamlit app
+├── requirements.txt              # Python dependencies (pip)
+├── Unitigs_predictor_DEATH.csv   # Feature CSV for mortality model
+├── Unitigs_predictor_ICU.csv     # Feature CSV for ICU model
+├── xgb_fold1_8_Death.joblib      # Pretrained XGBoost mortality model
+├── xgb_fold5_8_ICU.joblib        # Pretrained XGBoost ICU model
+└── KAUST_Logo.svg                # Logo for app display
+```
 
 ## App Workflow
 
