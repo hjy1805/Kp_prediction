@@ -1,7 +1,7 @@
 # Machine Learning Based Genomic Risk Prediction
 
 <p align="left">
-  <img src="app_logo.jpg" width="400">
+  <img src="app_logo.jpg" width="200">
 </p>
 
 ## Overview
