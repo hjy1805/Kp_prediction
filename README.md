@@ -20,7 +20,7 @@ Key features:
 
 ---
 
-## Project Structure
+## Project Structure (Docker image)
 
 ```plaintext
 ide_app/
