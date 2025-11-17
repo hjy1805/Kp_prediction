@@ -33,15 +33,6 @@ my-streamlit-app/
 
 ## Installation
 
-### **Using pip**
-
-Ensure Python 3.10+ and pip are installed:
-
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-
-streamlit run app.py
 ```
 ### **Docker Usage**
 
