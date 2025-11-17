@@ -33,7 +33,6 @@ ide_app/
 
 ## Installation
 
-```
 ### **Docker Usage**
 
 Ensure Docker are installed:
