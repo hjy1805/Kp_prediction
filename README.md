@@ -19,6 +19,7 @@ Key features:
 
 ## Project Structure
 
+```plaintext
 my-streamlit-app/
 ├── app.py                        # Main Streamlit app
 ├── requirements.txt              # Python dependencies (pip)
@@ -27,6 +28,7 @@ my-streamlit-app/
 ├── xgb_fold1_8_Death.joblib      # Pretrained XGBoost mortality model
 ├── xgb_fold5_8_ICU.joblib        # Pretrained XGBoost ICU model
 └── KAUST_Logo.svg                # Logo for app display
+```
 
 ---
 
@@ -71,7 +73,20 @@ docker run -p 8501:8501 hjy1805/ide_app:latest
 	•	Adjustable number of top biomarkers
 
 
+## Contacts
+For inquiries regarding this research, please contact:
 
+Jiayi Huang
+
+Email: jiayi.huang@kaust.edu.sa
+
+PhD student
+
+Infectious Disease Epidemiology Lab
+
+Biological and Environmental Science and Engineering (BESE) Division
+
+King Abdullah University of Science and Technology (KAUST)
 
 
 
