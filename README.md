@@ -61,9 +61,12 @@ ide_app/
 	•	ICU Admission
 	•	Length of Stay (LOS)
 3.	Upload bacterial genome FASTA files (.fa, .fasta, .fna, .fa.gz, .fasta.gz)
-4.	Adjust optional parameters:
+4a.	Adjust optional parameters **(in-hospital mortality**, **ICU admission)**:
 	•	Decision threshold (probability cutoff)
 	•	Confidence interval effective n (controls CI width)
+	•	Enable SHAP predictive biomarker analysis (optional)
+4b.	Adjust optional parameters **(Length of Stay (LOS))**:
+	•	Prediction will run for 99%, 95% and 90% prediction intervals
 	•	Enable SHAP predictive biomarker analysis (optional)
 5.	Run prediction:
 	•	Model scans genomes for unitigs
