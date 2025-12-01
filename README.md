@@ -52,15 +52,20 @@ ide_app/
 
 ## App Workflow
 
-<p align="left">
-  <img src="default_interface.png" width="600">
-</p>
-
 ### 1. Select clinical outcome
 - **In-hospital Mortality**
 - **ICU Admission**
 - **Length of Stay (LOS)**
 
+#### Interface for *In-hospital Mortality* and *ICU Admission*
+<p align="left">
+  <img src="default_interface_a.png" width="600">
+</p>
+
+#### Interface for *Length of Stay (LOS)*
+<p align="left">
+  <img src="default_interface_b.png" width="600">
+</p>
 ---
 
 ### 2. Upload bacterial genome FASTA files
@@ -89,9 +94,17 @@ Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
 **Example prediction output (for *In-hospital Mortality* and *ICU Admission*):**
 
 <p align="left">
-  <img src="pred_result.png" width="400">
+  <img src="pred_result_a.png" width="400">
+</p>
+**Example prediction output (for *In-hospital Mortality* and *ICU Admission*):**
+
+<p align="left">
+  <img src="pred_result_b1.png" width="400">
 </p>
 
+<p align="left">
+  <img src="pred_result_b2.png" width="400">
+</p>
 ---
 
 ### 5. SHAP Visualisation
@@ -104,6 +117,16 @@ Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
 <p align="left">
   <img src="shap_example.png" width="400">
 </p>
+
+### 6. Genomic Biomarker Annotation Against CARD and VFDB
+- Annotates the top predictive genomic unitigs (from SHAP) against two reference databases: CARD (antibiotic resistance genes) and VFDB (virulence factors)
+
+**Example BLAST output:**
+
+<p align="left">
+  <img src="blast.png" width="400">
+</p>
+
 ---
 
 ## Contacts
