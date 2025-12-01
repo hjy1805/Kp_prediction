@@ -60,7 +60,7 @@ ide_app/
 	•	In-hospital Mortality
 	•	ICU Admission
 	•	Length of Stay (LOS)
-3.	Upload bacterial genome FASTA files (.fa, .fasta, .fna, .fa.gz, .fasta.gz)
+3.	Upload bacterial genome FASTA files (.fa, .fasta, .fna, .fa.gz, .fasta.gz):
 4a.	Adjust optional parameters **(in-hospital mortality**, **ICU admission)**:
 	•	Decision threshold (probability cutoff)
 	•	Confidence interval effective n (controls CI width)
