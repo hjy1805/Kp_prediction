@@ -115,7 +115,7 @@ Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
 **Example SHAP output:**
 
 <p align="left">
-  <img src="shap_example.png" width="400">
+  <img src="shap.png" width="400">
 </p>
 
 ### 6. Genomic Biomarker Annotation Against CARD and VFDB
