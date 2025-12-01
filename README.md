@@ -31,6 +31,8 @@ Ensure Docker are installed:
 docker pull hjy1805/ide_app:latest
 docker run -p 8501:8501 hjy1805/ide_app:latest
 ```
+If your browser doesn’t automatically open the app page, you can access it at http://0.0.0.0:8501
+
 ---
 
 ## Project Structure (Docker image)
