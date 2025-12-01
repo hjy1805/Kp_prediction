@@ -13,8 +13,8 @@ An **machine learning based digital health tool** for predicting **in-hospital m
 Key features:
 
 - Scan **bacterial genome assemblies (FASTA)** for genomic biomarkers (*unitigs*)  
-- Predict **mortality** and **ICU admission risk**  
-- Compute **approximate 95% confidence intervals** for predictions  
+- Predict **mortality** ,**ICU admission risk** and **Length of Stay (LOS)***
+- Compute **approximate 95% confidence intervals (prediction intervals for LOS)** for predictions  
 - Optional **SHAP-based biomarker importance visualisation**  
 - Parallelised genome scanning for **large datasets**
 
@@ -39,13 +39,15 @@ If your browser doesn’t automatically open the app page, you can access it at 
 
 ```plaintext
 ide_app/
-├── app.py                        # Main Streamlit app
-├── requirements.txt              # Python dependencies (pip)
-├── Unitigs_predictor_DEATH.csv   # Feature CSV for mortality model
-├── Unitigs_predictor_ICU.csv     # Feature CSV for ICU model
-├── xgb_fold1_8_Death.joblib      # Pretrained XGBoost mortality model
-├── xgb_fold5_8_ICU.joblib        # Pretrained XGBoost ICU model
-└── KAUST_Logo.svg                # Logo for app display
+├── app_v2.py                                   # Main Streamlit app
+├── requirements.txt                            # Python dependencies (pip)
+├── Unitigs_predictor_DEATH.csv                 # Feature CSV for mortality model
+├── Unitigs_predictor_ICU.csv                   # Feature CSV for ICU model
+├── Unitigs_predictor_los.csv                   # Feature CSV for LOS model
+├── xgb_fold1_8_Death.joblib                    # Pretrained XGBoost mortality model
+├── xgb_fold5_8_ICU.joblib                      # Pretrained XGBoost ICU model
+├── Unitig_model_ngb_log1p_fold1.joblib         # Pretrained NGBoost LOS model
+└── KAUST_Logo.svg                              # Logo for app display
 ```
 
 ## App Workflow
@@ -57,12 +59,13 @@ ide_app/
 1.	Select clinical outcome:
 	•	In-hospital Mortality
 	•	ICU Admission
-2.	Upload bacterial genome FASTA files (.fa, .fasta, .fna, .fa.gz, .fasta.gz)
-3.	Adjust optional parameters:
+	•	Length of Stay (LOS)
+3.	Upload bacterial genome FASTA files (.fa, .fasta, .fna, .fa.gz, .fasta.gz)
+4.	Adjust optional parameters:
 	•	Decision threshold (probability cutoff)
 	•	Confidence interval effective n (controls CI width)
 	•	Enable SHAP predictive biomarker analysis (optional)
-4.	Run prediction:
+5.	Run prediction:
 	•	Model scans genomes for unitigs
 	•	Generates probability prediction & 95% CI
 	•	Downloadable CSV with predictions
