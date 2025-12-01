@@ -56,36 +56,54 @@ ide_app/
   <img src="default_interface.png" width="600">
 </p>
 
-1.	Select clinical outcome:
-	•	In-hospital Mortality
-	•	ICU Admission
-	•	Length of Stay (LOS)
-3.	Upload bacterial genome FASTA files (.fa, .fasta, .fna, .fa.gz, .fasta.gz):
-4a.	Adjust optional parameters **(in-hospital mortality**, **ICU admission)**:
-	•	Decision threshold (probability cutoff)
-	•	Confidence interval effective n (controls CI width)
-	•	Enable SHAP predictive biomarker analysis (optional)
-4b.	Adjust optional parameters **(Length of Stay (LOS))**:
-	•	Prediction will run for 99%, 95% and 90% prediction intervals
-	•	Enable SHAP predictive biomarker analysis (optional)
-5.	Run prediction:
-	•	Model scans genomes for unitigs
-	•	Generates probability prediction & 95% CI
-	•	Downloadable CSV with predictions
-    Example prediction result: 
+### 1. Select clinical outcome
+- **In-hospital Mortality**
+- **ICU Admission**
+- **Length of Stay (LOS)**
+
+---
+
+### 2. Upload bacterial genome FASTA files
+Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
+
+---
+
+### 3. Adjust optional parameters
+
+#### a. For *In-hospital Mortality* and *ICU Admission*
+- Decision threshold (probability cutoff)
+- Confidence interval effective **n** (controls CI width)
+- Enable SHAP predictive biomarker analysis (optional)
+
+#### b. For *Length of Stay (LOS)*
+- Predicts **99%, 95%, and 90% prediction intervals**
+- Enable SHAP predictive biomarker analysis (optional)
+
+---
+
+### 4. Run prediction
+- Model scans genomes for unitigs
+- Generates predicted probability & **95% confidence interval**
+- Download results as a **CSV file**
+
+**Example prediction output (for *In-hospital Mortality* and *ICU Admission*):**
+
 <p align="left">
   <img src="pred_result.png" width="400">
 </p>
 
-5.	SHAP Visualisation:
-	•	Identify most influential genomic biomarkers
-	•	Waterfall or bar plot per sample
-	•	Adjustable number of top biomarkers
-    SHAP predictive biomarker:  
-<p align="left">
-  <img src="shap.png" width="600">
-</p>
+---
 
+### 5. SHAP Visualisation
+- Identify the most influential genomic biomarkers
+- Show waterfall or bar plots per sample
+- Adjust the number of top biomarkers
+
+**Example SHAP output:**
+
+<p align="left">
+  <img src="shap_example.png" width="400">
+</p>
 ---
 
 ## Contacts
