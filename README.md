@@ -66,6 +66,7 @@ ide_app/
 <p align="left">
   <img src="default_interface_b.png" width="600">
 </p>
+
 ---
 
 ### 2. Upload bacterial genome FASTA files
@@ -105,6 +106,7 @@ Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
 <p align="left">
   <img src="pred_result_b2.png" width="400">
 </p>
+
 ---
 
 ### 5. SHAP Visualisation
@@ -117,6 +119,8 @@ Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
 <p align="left">
   <img src="shap.png" width="400">
 </p>
+
+---
 
 ### 6. Genomic Biomarker Annotation Against CARD and VFDB
 - Annotates the top predictive genomic unitigs (from SHAP) against two reference databases: CARD (antibiotic resistance genes) and VFDB (virulence factors)
