@@ -28,8 +28,8 @@ Key features:
 Ensure Docker are installed:
 
 ```bash
-docker pull hjy1805/ide_app:latest
-docker run -p 8501:8501 hjy1805/ide_app:latest
+docker pull hjy1805/ide_app:v2
+docker run -p 8501:8501 hjy1805/ide_app:v2
 ```
 If your browser doesn’t automatically open the app page, you can access it at http://0.0.0.0:8501
 
