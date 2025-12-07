@@ -97,7 +97,8 @@ Accepted formats: `.fa`, `.fasta`, `.fna`, `.fa.gz`, `.fasta.gz`
 <p align="left">
   <img src="pred_result_a.png" width="400">
 </p>
-**Example prediction output (for *In-hospital Mortality* and *ICU Admission*):**
+
+**Example prediction output (for *Length of Stay (LOS)*):**
 
 <p align="left">
   <img src="pred_result_b1.png" width="400">
