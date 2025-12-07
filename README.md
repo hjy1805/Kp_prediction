@@ -12,11 +12,11 @@ An **machine learning based digital health tool** for predicting **in-hospital m
 
 Key features:
 
-- Scan **bacterial genome assemblies (FASTA)** for genomic biomarkers (*unitigs*)  
-- Predict **mortality** ,**ICU admission risk** and **Length of Stay (LOS)***
-- Compute **approximate 95% confidence intervals (prediction intervals for LOS)** for predictions  
+- Scan **bacterial genome assemblies (FASTA)** for genomic biomarkers (unitigs)  
+- Predict **mortality** , **ICU admission risk** and **Length of Stay (LOS)**
+- Compute approximate 95% confidence intervals (prediction intervals for LOS) for predictions  
 - Optional **SHAP-based biomarker importance visualisation**  
-- Parallelised genome scanning for **large datasets**
+- Parallelised genome scanning for large datasets
 
 
 ---
