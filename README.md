@@ -6,9 +6,9 @@
 
 ## Overview
 
-An **machine learning based digital health tool** for predicting **in-hospital mortality**, **ICU admission** and **Length of Stay (LOS)** from bacterial **genomic biomarkers**. This research platform supports **infection prevention**, and data-driven **precision therapeutics**. 
+An **machine learning based digital health tool** for predicting **in-hospital mortality** , **ICU admission** and **Length of Stay (LOS)** from bacterial **genomic biomarkers**. This research platform supports **infection prevention** , and data-driven **precision therapeutics** . 
 
-> ⚠️ This platform is intended for **research purposes only** and is **not for clinical decision-making**.
+> ⚠️ This platform is intended for **research purposes only** and is **not for clinical decision-making** .
 
 Key features:
 
