@@ -22,7 +22,7 @@ Key features:
 
 ---
 
-## Packages Details
+## Package Details
 
 ### Prediction Models
 
