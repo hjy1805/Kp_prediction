@@ -304,6 +304,11 @@ Ensure port 8501 is available and not blocked by firewall.
 ---
 
 ## Refernce
+
+Chen T, He T, Benesty M, Khotilovich V, Tang Y, Cho H, Chen K, Mitchell R, Cano I, Zhou T, Li M, Xie J, Lin M, Geng Y, Li Y, Yuan J, Cortes D (2025). xgboost: Extreme Gradient Boosting. R package version 3.2.0.0, https://github.com/dmlc/xgboost
+
+Tony Duan, Anand Avati, Daisy Yi Ding, Khanh K. Thai, Sanjay Basu, Andrew Y. Ng, Alejandro Schuler. 2019. NGBoost: Natural Gradient Boosting for Probabilistic Prediction https://dl.acm.org/doi/10.5555/3524938.3525190
+
 Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410. doi: 10.1016/S0022-2836(05)80360-2
 
 Chen L, Yang J, Yu J, Yao Z, Sun L, Shen Y, Jin Q. VFDB: a reference database for bacterial virulence factors. Nucleic Acids Res. 2005 Jan 1;33(Database issue): D325-8. doi: 10.1093/nar/gki008. PMID: 15608208; PMCID: PMC539962.
