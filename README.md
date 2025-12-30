@@ -10,7 +10,7 @@ An **machine learning based digital health tool** for predicting **in-hospital m
 
 > ⚠️ This platform is intended for **research purposes only** and is **not for clinical decision-making**.
 
-Key features:
+## Key features
 
 - Scan **bacterial genome assemblies (FASTA)** for genomic biomarkers (unitigs)
 - Predict **mortality**, **ICU admission risk** and **Length of Stay (LOS)**
@@ -20,38 +20,6 @@ Key features:
 - **Web interface** via Streamlit for interactive analysis
 - **Command-line interface** for batch processing and automation
 
----
-
-## Package Details
-
-### Prediction Models
-
-- **Mortality**: XGBoost classifier trained on genomic unitigs
-- **ICU Admission**: XGBoost classifier trained on genomic unitigs
-- **Length of Stay**: NGBoost regressor with natural gradient boosting
-
-### Unitig Features
-
-- a maximal, unambiguous sequence derived from overlapping DNA fragments (k-mers)
-- Parallel scanning for efficient processing
-
-### Confidence Intervals
-
-- **Binary predictions**: Wilson interval approximation
-- **LOS predictions**: Model-based prediction intervals (90%, 95%, 99%)
-
-### SHAP Analysis
-
-- Explains individual predictions using SHAP values
-- Identifies most influential genomic biomarkers
-- Supports both waterfall and bar plot visualizations
-
-### BLAST Annotation
-
-- Searches top biomarkers against CARD and VFDB databases
-- CARD: Comprehensive Antibiotic Resistance Database
-- VFDB: Virulence Factor Database
-- Uses BLASTN with default parameters for nucleotide searches
 
 ---
 
