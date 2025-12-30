@@ -22,6 +22,39 @@ Key features:
 
 ---
 
+## Packages Details
+
+### Prediction Models
+
+- **Mortality**: XGBoost classifier trained on genomic unitigs
+- **ICU Admission**: XGBoost classifier trained on genomic unitigs
+- **Length of Stay**: NGBoost regressor with natural gradient boosting
+
+### Unitig Features
+
+- a maximal, unambiguous sequence derived from overlapping DNA fragments (k-mers)
+- Parallel scanning for efficient processing
+
+### Confidence Intervals
+
+- **Binary predictions**: Wilson interval approximation
+- **LOS predictions**: Model-based prediction intervals (90%, 95%, 99%)
+
+### SHAP Analysis
+
+- Explains individual predictions using SHAP values
+- Identifies most influential genomic biomarkers
+- Supports both waterfall and bar plot visualizations
+
+### BLAST Annotation
+
+- Searches top biomarkers against CARD and VFDB databases
+- CARD: Comprehensive Antibiotic Resistance Database
+- VFDB: Virulence Factor Database
+- Uses BLASTN with default parameters for nucleotide searches
+
+---
+
 ## Installation
 
 ### **Web Interface (Docker)**
@@ -242,40 +275,6 @@ python3 cli_wrapper.py -i genomes/*.fasta -o icu.csv -t icu --threshold 0.6 --n-
 
 **BLAST Results CSV:**
 - Unitig_Sequence, Subject, Identity_pct, Evalue, Bitscore, Database
-
----
-
-## Model Details
-
-### Prediction Models
-
-- **Mortality**: XGBoost classifier trained on genomic unitigs
-- **ICU Admission**: XGBoost classifier trained on genomic unitigs
-- **Length of Stay**: NGBoost regressor with natural gradient boosting
-
-### Unitig Features
-
-- DNA sequences (k-mers) of length 5+ nucleotides
-- Presence/absence encoding (binary features)
-- Parallel scanning for efficient processing
-
-### Confidence Intervals
-
-- **Binary predictions**: Wilson interval approximation
-- **LOS predictions**: Model-based prediction intervals (90%, 95%, 99%)
-
-### SHAP Analysis
-
-- Explains individual predictions using SHAP values
-- Identifies most influential genomic biomarkers
-- Supports both waterfall and bar plot visualizations
-
-### BLAST Annotation
-
-- Searches top biomarkers against CARD and VFDB databases
-- CARD: Comprehensive Antibiotic Resistance Database
-- VFDB: Virulence Factor Database
-- Uses BLASTN with default parameters for nucleotide searches
 
 ---
 
