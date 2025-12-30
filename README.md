@@ -45,7 +45,7 @@ cd Kp_prediction_cli
 
 #### Prerequisites
 
-Ensure you have Python 3.8+ installed with required packages:
+Ensure you have Python 3.8+ (recommend 3.10.19)installed with required packages:
 
 ```bash
 pip install -r requirements.txt
