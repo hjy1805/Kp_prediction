@@ -167,7 +167,6 @@ The CLI wrapper allows running predictions from the command line without the web
 - **Batch processing** of multiple genomes
 - **High-performance computing** (HPC) cluster integration
 - **Automated pipelines** and workflows
-- **Server deployment** without GUI dependencies
 
 #### Quick Start
 
@@ -267,7 +266,7 @@ Process files in smaller batches or increase available memory.
 
 ### Docker Issues
 
-Ensure port 8501 is available and not blocked by firewall.
+Ensure port 8501 is available and not blocked by the firewall.
 
 ---
 
