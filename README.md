@@ -51,7 +51,7 @@ Ensure you have Python 3.8+ (recommend 3.10.19)installed with required packages:
 pip install -r requirements.txt
 ```
 
-On Linux systems, also ensure BLAST tools are installed (conda command provided below, offical documentation please refer to https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html):
+On Linux systems, also ensure BLAST tools are installed (official documentation, please refer to https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html):
 
 ```bash
 # Conda
